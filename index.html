@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shri Ram Navami 2025</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background Slideshow -->
+  <div class="background-slideshow">
+    <img src="image_1.jpeg" class="bg-image active" />
+    <img src="image_2.webp" class="bg-image" />
+    <img src="image_3.jpeg" class="bg-image" />
+    <img src="image_4.jpeg" class="bg-image" />
+    <img src="image_5.jpeg" class="bg-image" />
+    <img src="image_6.jpeg" class="bg-image" />
+    <img src="image_7.jpeg" class="bg-image" />
+    <img src="image_8.jpeg" class="bg-image" />
+  </div>
+
+
+  <!-- Main Content -->
+  <div class="main-container">
+    <div class="poster-card">
+      <h1 class="event-title">🚩 Shri Ram Navami 2025</h1>
+      <p class="event-subtitle">Celebrate the birth of Shri Ram – The symbol of Dharma 🙏</p>
+
+      <div class="countdown-timer">
+        <div class="time-box"><span id="days">00</span><small>Days</small></div>
+        <div class="time-box"><span id="hours">00</span><small>Hours</small></div>
+        <div class="time-box"><span id="minutes">00</span><small>Minutes</small></div>
+        <div class="time-box"><span id="seconds">00</span><small>Seconds</small></div>
+      </div>
+
+      <div class="audio-section">
+        <label for="bhajanSelect">🎶 Select Bhajan:</label>
+        <select id="bhajanSelect">
+          <option value="Song_1.mp3">Ram Siya Ram</option>
+          <option value="Song_2.mp3">Shri Ram Chandra Kripalu</option>
+          <option value="Somg_3.mp3">Shri Ram Janki</option>
+        </select>
+        <audio controls id="bhajanPlayer">
+          <source src="audio/ram_bhajan1.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <form class="donation-form" id="donationForm">
+        <h2>🙏 Contribute to make this Year's Ram Navmi Celebration Larger than ever🙏</h2>
+        <input type="text" placeholder="Full Name" name="name" required />
+        <input type="email" placeholder="Email Address" name="email" required />
+        <input type="number" placeholder="Amount (INR)" name="amount" required />
+        <textarea placeholder="Message or Prayer..." name="message"></textarea>
+        <button type="submit">Contribute</button>
+      </form>
+
+      <p class="event-footer">📅 April 6, 2025 | जय श्री राम!</p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
